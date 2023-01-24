@@ -7,7 +7,7 @@ Once the token has been retrieved, then it is cached for the duration defined in
 [Documentation Google](https://developers.google.com/identity/protocols/oauth2/service-account)
 
 ## Pré-requis
-Lors de l'utilisation de ce sharedflow dans un proxy il faut d'abord prévoir :
+When using this sharedflow in a proxy you must first provide :
 
 - A service account that has the rights to call an API on GCP via IAP
 - The JSON of this service account

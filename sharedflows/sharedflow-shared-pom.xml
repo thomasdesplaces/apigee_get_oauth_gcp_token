@@ -78,7 +78,7 @@
                 <executions>
                     <execution>
                         <id>create-config-cache</id>
-                        <phase>package</phase>                        
+                        <phase>package</phase>
                         <goals>
                             <goal>caches</goal>
                         </goals>

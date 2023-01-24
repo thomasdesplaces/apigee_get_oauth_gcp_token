@@ -2,6 +2,10 @@
 
 [![Apigee](https://upload.wikimedia.org/wikipedia/commons/a/aa/Apigee_logo.svg)](https://cloud.google.com/apigee)
 
+![alt version](https://img.shields.io/badge/Version-0.0.1-violet)
+![alt production](https://img.shields.io/badge/Production--Ready-No-green)
+![alt docker](https://img.shields.io/badge/Deployment_tool-Maven-orange)
+
 This is a code to deploy sharedflows which are used when your backend is secured by GCP OAuth (via Service Account) or IAP (via Service Account).
 
 ## Prerequisite
@@ -30,12 +34,3 @@ How to use it :
 cd sharedflows/gcp-token-oauth
 mvn install -P=dev -Dusername=XXXX -Dpassword=YYYY -Dorganization=ZZZZ
 ```
-
-## Versions
-
-**Last version :** 1.0
-
-## Auteurs
-
-* **Thomas** _alias_ [@tonyglandyl](https://github.com/tonyglandyl28)
-
